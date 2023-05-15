@@ -66,4 +66,3 @@ function calculateWorkDays(employeeType, employees, tasks) {
     let taskSpendDays = taskSpendTimes / oneTimeSpendTime;
     return Math.ceil(taskSpendDays);
 }
-console.log(calculateWorkDays(employeeType, employees, tasks));
